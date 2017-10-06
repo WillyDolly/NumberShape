@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dots">
+
+    <RelativeLayout
+        android:id="@+id/RLpoints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/PBreview"
+            android:background="@drawable/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentTop="true"
+            android:progress="0"
+            android:max="100"/>
+
+        <TextView
+            android:id="@+id/TVn1"
+            android:textSize="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/round_shape"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:id="@+id/IV1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_shape"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="30dp"
+            android:scaleType="centerInside"/>
+
+        <ImageView
+            android:id="@+id/IV2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_shape"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="30dp"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
